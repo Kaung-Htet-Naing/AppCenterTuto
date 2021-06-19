@@ -64,6 +64,7 @@ const App: () => Node = () => {
   return (
     <SafeAreaView style={backgroundStyle}>
       <Button title="Crahes " onPress={() => Crashes.generateTestCrash()} />
+      <Text>Branch - Feature:1</Text>
     </SafeAreaView>
   );
 };
